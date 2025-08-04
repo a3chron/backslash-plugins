@@ -1,5 +1,5 @@
-name: color-converter
-label: Color Converter
+name: colors
+label: Colors
 version: 1.0.0
 author: a3chron
 
@@ -12,6 +12,7 @@ commands:
     icon: palette
     keywords:
       - hex
+      - color
 
   - name: rgb
     label: RGB
@@ -21,6 +22,7 @@ commands:
     icon: palette
     keywords:
       - rgb
+      - color
 
   - name: hsl
     label: HSL
@@ -30,3 +32,4 @@ commands:
     icon: palette
     keywords:
       - hsl
+      - color
