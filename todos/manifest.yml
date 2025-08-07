@@ -6,7 +6,7 @@ author: a3chron
 commands:
   - name: add-todo
     label: Add Todo
-    isImmediate: true
+    isImmediate: false
     bgColor: "#cdd6f4"
     color: "#181825"
     icon: check
@@ -22,5 +22,5 @@ commands:
     icon: check
     keywords:
       - todo
+      - todos
       - list
-      - ls
