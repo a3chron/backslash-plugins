@@ -92,7 +92,7 @@ const run = async (query, { axios }) => {
               children: [
                 {
                   type: 'title',
-                  content: todo.title + todo.id,
+                  content: todo.title,
                   className: todo.completed ? 'line-through text-gray-500' : ''
                 },
                 ...(todo.notes ? [{

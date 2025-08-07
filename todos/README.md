@@ -1,12 +1,12 @@
 To add a Todo:
 
-`<todo-title>`
+`todo <todo-title>`
 
 With description / notes:
-`<todo-title> -- <notes>`
+`todo <todo-title> -- <notes>`
 
 With high prio:
-`!<todo-title>`
+`todo !<todo-title>`
 
 Low Prio:
-`-<todo-title>`
+`todo -<todo-title>`
